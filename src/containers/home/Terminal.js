@@ -1,4 +1,5 @@
 import React from 'react'
+import './Terminal.scss'
 
 import TerminalHeader from "../../components/headers/TerminalHeader"
 import TerminalWindow from "../../components/windows/TerminalWindow"
