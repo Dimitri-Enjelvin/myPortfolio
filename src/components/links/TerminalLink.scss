@@ -3,4 +3,16 @@
 .terminal-link {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }

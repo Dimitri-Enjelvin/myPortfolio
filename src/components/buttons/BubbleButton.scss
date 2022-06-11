@@ -1,14 +1,15 @@
-$height : 10px;
-$width : 10px;
-$radius : "50%";
-$red-color : "rgb(227, 53, 34)";
-$orange-color : "rgb(255, 165, 0)";
-$green-color : "rgb(60, 179, 113)";
+$height : 16px;
+$width : 16px;
+$radius : 8px;
+$red-color : rgba(227, 53, 34);
+$orange-color : rgb(255, 165, 0);
+$green-color : rgb(60, 179, 113);
 
 
 .bubble-red {
     height : $height;
-    width : $width;
+    width : $width;   
+    margin-left: 5px;
     border-radius : $radius;
     background-color : $red-color
 }
@@ -16,6 +17,7 @@ $green-color : "rgb(60, 179, 113)";
 .bubble-orange {
     height : $height;
     width : $width;
+    margin-left: 5px;
     border-radius : $radius;
     background-color : $orange-color
 }
@@ -23,6 +25,7 @@ $green-color : "rgb(60, 179, 113)";
 .bubble-green {
     height : $height;
     width : $width;
+    margin-left: 5px;
     border-radius : $radius;
     background-color : $green-color
 }

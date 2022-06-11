@@ -1,0 +1,16 @@
+$height : 60vh;
+$width : 60vw;
+$radius : 10px;
+$border-color : rgb(104, 99, 100);
+
+
+.terminal-container {
+    display: flex;
+    flex-direction: column;
+    height : $height;
+    width : $width;
+    border : 3px solid $border-color;
+    border-radius : $radius;
+    z-index: 1;
+    overflow: hidden;
+}
