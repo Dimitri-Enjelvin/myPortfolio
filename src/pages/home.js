@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.scss'
 
 import Terminal from '../containers/home/Terminal'
 
