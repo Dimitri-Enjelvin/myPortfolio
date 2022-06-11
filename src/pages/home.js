@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Terminal from '../containers/home/Terminal'
+
 const Home = () => {
   return (
-    <div> </div>
+    <div className="home-container"> 
+      <Terminal />
+    </div>
   )
 }
 
