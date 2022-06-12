@@ -12,7 +12,7 @@ export default function useVisible(timer) {
             setVisible(prev => !prev)
         }, timer);
 
-    }, [])
+    }, [timer])
     
 
 
