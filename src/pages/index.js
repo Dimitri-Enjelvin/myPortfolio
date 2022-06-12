@@ -1,3 +1,5 @@
+// import '../utils/translations/IMLocalize'
+
 import React from "react"
 import Home from "./home"
 
