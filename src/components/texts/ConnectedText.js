@@ -5,7 +5,7 @@ const ConnectedText = () => {
 
     return (
         <div className="connected-text-container">
-            <p className="connected-text">Connected Successfully</p>
+            <p className="connected-text">&gt;&gt;Connected Successfully</p>
         </div>
     )
 }

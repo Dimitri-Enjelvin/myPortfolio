@@ -3,16 +3,16 @@ import { useState, useEffect } from 'react'
 
 export default function useLoading() {
 
-    const [isLoading, setLoading] = useState(true)
+    const [isLoading, setLoading] = useState(false)
 
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        setTimeout(() => {
-            setLoading(prev => !prev)
-        }, 10000);
+    //     setTimeout(() => {
+    //         setLoading(prev => !prev)
+    //     }, 10000);
       
-    }, [])
+    // }, [])
     
 
     return { isLoading }
