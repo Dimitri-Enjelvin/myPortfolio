@@ -6,7 +6,8 @@ import useLoading from '../../utils/hooks/useLoading'
 import LoadingText from '../texts/LoadingText'
 import ConnectedText from '../texts/ConnectedText'
 import LanguageText from '../texts/LanguageText'
-import TerminalInput from '../inputs/TerminalInput';
+import LanguageConfirmedText from '../texts/LanguageConfirmedText'
+import TerminalInput from '../inputs/TerminalInput'
 
 
 const TerminalWindow = () => {
@@ -23,6 +24,7 @@ const TerminalWindow = () => {
             <>
                 <ConnectedText />
                 <LanguageText />
+                <LanguageConfirmedText />
                 <TerminalInput />
             </>
             }
