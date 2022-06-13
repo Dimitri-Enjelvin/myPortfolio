@@ -1,0 +1,74 @@
+
+
+.language-confirmed-container {
+
+    width: fit-content; 
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.language-confirmed-animation {
+
+    // display: none;
+    // visibility: hidden;
+    color: white;
+    overflow: hidden;
+    border-right: .15em solid transparent; 
+    white-space: nowrap; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret 4s step-end;
+
+}
+
+.language-confirmed-animation-2 {
+
+    // display: none;
+    // visibility: hidden;
+    color: white;
+    overflow: hidden;
+    border-right: .15em solid transparent; 
+    white-space: nowrap; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret 4s step-end;
+
+}
+
+
+
+
+
+@keyframes typing {
+    0% { width: 0 }
+    50% { width: 50% }
+    100% { width: 100% }
+}
+
+@keyframes blink-caret {
+    0% { border-color: transparent }
+    5% { border-color: orange }
+    10% { border-color: transparent }
+    15% { border-color: orange }
+    20% { border-color: transparent }
+    25% { border-color: orange }
+    30% { border-color: transparent }
+    35% { border-color: orange }
+    40% { border-color: transparent }
+    45% { border-color: orange }
+    50% { border-color: transparent }
+    55% { border-color: orange }
+    60% { border-color: transparent }
+    65% { border-color: orange }
+    70% { border-color: transparent }
+    75% { border-color: orange }
+    80% { border-color: transparent }
+    85% { border-color: orange }
+    90% { border-color: transparent }
+    95% { border-color: orange }
+    100% { border-color: transparent }
+}

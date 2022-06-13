@@ -28,14 +28,14 @@ const submitTerminalInput = (event, values, func, lang, inputRef) => {
     if(!isLanguage && french) {
         setLanguage(true);
         setErrors({language: '' })
-        // handleLanguageChangeToFR()
+        handleLanguageChangeToFR()
         console.log('french chosen')
     }
 
     if(!isLanguage && english) {
         setLanguage(true);
         setErrors({language: '' })
-        // handleLanguageChangeToEN()
+        handleLanguageChangeToEN()
         console.log('english chosen')
     }
 
